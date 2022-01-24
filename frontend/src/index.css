@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container-fluid{
+  justify-content: center!important;
+}
+
+table{
+  --bs-table-striped-color: white !important;
+  --bs-table-striped-bg: #4c4c9c !important;
+  --bs-table-hover-bg: #4c4c9c !important;
+  border-color: #4c4c9c !important;
+  background-color: #9b9be9;
+  
+  /* color: white !important; */
+}
+
+thead{
+  border-color: #4c4c9c !important;
+}
+
+.btn,
+.btn-primary{
+    background-color: #9b9be9;
+    border-color: #9b9be9;
+}
+
+.btn-secondary{
+    background-color: #4c4c9c !important;
+    color:white !important
+}
+
+.btn-secondary:hover{
+    background-color: #5a5a85 !important;
+}
+
+.btn:hover{
+  background-color: #4c4c9c;
+    border-color: #4c4c9c;
+}
+
+input{
+  border-color: #4c4c9c !important;
+  background-color: #9b9be9 !important; 
+  color: white !important;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active  {
+      -webkit-box-shadow: 0 0 0 30px #9b9be9 inset !important;
+}
+
+input:-webkit-autofill {
+  -webkit-text-fill-color: black !important;
+}
+
+#hash:hover{
+  color: black!important;
+}
+
+form{
+  background-color: #4c4c9c;
+  color: white;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.footer{
+  background-color: #4c4c9c;
+  color:white;
+  padding: 15px;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+}
